@@ -8,10 +8,6 @@ function useWindowSize() {
         height: size ? 800 : window.innerHeight,
     });
 
-    // if(typeof window !== "undefined") {
-    //     return { width: 1200, height: 800}
-    // }
-
     function getSize() {
         setWindowSize({ width: window.innerWidth, height: window.innerHeight });
     }
