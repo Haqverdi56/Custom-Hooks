@@ -1,5 +1,5 @@
 import React from "react";
-import useWindowSize from "../useWindowSize";
+import useWindowSize from "./Hooks/useWindowSize";
 
 function WindowHook() {
   const { width } = useWindowSize();
